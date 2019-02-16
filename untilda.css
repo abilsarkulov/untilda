@@ -52,11 +52,6 @@
     {font-size: 18px;}
 }
 .t391__text.t-descr strong {background: #111;border-radius: 100px;padding: 0 5px;animation: miger 1s infinite;}
-
-.t-body_popupshowed .r.t-rec:not(.notme){-webkit-filter: grayscale(100%);filter: grayscale(100%);}
-
-.t500__textwrapper .t-name {line-height: 20px;}
-
 @keyframes miger {
     0% { background: #111;color: #fff; }
     50% {background: #111;color: #fff;}
