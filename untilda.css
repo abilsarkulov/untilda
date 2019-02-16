@@ -22,6 +22,7 @@
 .t568__title,.t575__title,.t566__title,.t681__title
 {font-size: 18px;}
 .t391__text.t-descr strong {background: #111;border-radius: 100px;padding: 0 5px;animation: miger 1s infinite;}
+.t396__elem.tn-elem.tn-elem__880457051550146334606 strong {background: #111;border-radius: 100px;padding: 0 5px;animation: miger 1s infinite;}
 @keyframes miger {
     0% { background: #111;color: #fff;}
     50% {background: #111;color: #fff;}
