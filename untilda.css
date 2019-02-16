@@ -21,6 +21,18 @@
 .t539__persname,.t518__col-header-inner,.t565__title,.t576__title,.t548__title,.t550__title,.t563__title,.t549__title,
 .t568__title,.t575__title,.t566__title,.t681__title
 {font-size: 18px;}
+.t391__text.t-descr strong {background: #111;border-radius: 100px;padding: 0 5px;animation: miger 1s infinite;}
+
+.t-body_popupshowed .r.t-rec:not(.notme){-webkit-filter: grayscale(100%);filter: grayscale(100%);}
+
+.t500__textwrapper .t-name {line-height: 20px;}
+
+@keyframes miger {
+    0% { background: #111;color: #fff; }
+    50% {background: #111;color: #fff;}
+    51% {background: #fff;color: #111;}
+    100% {background: #fff;color: #111;}
+}
 
 @media (min-width: 0px) and (max-width: 415px) {
     .t843 .t-section__title,.t-title_lg,.t-title_xxs,.t-title_md,.t-title_xl,.t-title_xs,.t-title_xxl,.t005A__title,
