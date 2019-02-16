@@ -43,6 +43,18 @@
     .t568__title,.t575__title,.t566__title
     {font-size: 18px;}
 }
+.t391__text.t-descr strong {background: #111;border-radius: 100px;padding: 0 5px;animation: miger 1s infinite;}
+
+.t-body_popupshowed .r.t-rec:not(.notme){-webkit-filter: grayscale(100%);filter: grayscale(100%);}
+
+.t500__textwrapper .t-name {line-height: 20px;}
+
+@keyframes miger {
+    0% { background: #111;color: #fff; }
+    50% {background: #111;color: #fff;}
+    51% {background: #fff;color: #111;}
+    100% {background: #fff;color: #111;}
+}
 
 /*Base*/
 .t-btn {font-size: 14px;}
